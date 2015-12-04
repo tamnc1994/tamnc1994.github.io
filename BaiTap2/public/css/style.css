@@ -1,0 +1,109 @@
+/* CSS Document */
+body
+{
+	font-family:Geogria, 'Times New Roman', Times, serif;
+}
+.container
+{
+	margin:auto;
+	width:1000px;
+	background-color:#2d2f35;
+}
+.header
+{
+	background-color:#2d2f35;
+}
+.our_product
+{
+	height:300px;
+	width:auto;
+	background-image:url(../images/bg_home_intro.gif);
+	padding-right:50px;
+	border-top:1px #CCC double;
+	border-bottom:1px #CCC double;
+}
+.our_product_left
+{
+	float:left;
+	width:300px;
+	padding-left:100px;
+}
+.our_product_left h2
+{
+	color:#FF0;
+}
+.our_product_left p
+{
+	color:#f0f0f0;
+	font-size:11px;
+	line-height:14px;
+}
+.our_product_right
+{
+	float:right;
+}
+.images
+{
+	width:800px;
+	margin:auto;
+	height:100px;
+	padding-top:5px;
+}
+.images img
+{
+	width:185px;
+	float:right;
+	padding:5px;
+}
+.footer
+{
+	border-top:1px #CCC double;
+}
+.footer p
+{
+	text-align:center;
+	color:#CCC;
+}
+.content
+{
+	width:800px;
+	height:400px;
+	margin:auto;
+}
+.left_content
+{
+	width:350px;
+	float:left;
+	height:400px;
+	background:url(../images/home_services_bg_design.gif) right bottom no-repeat;
+}
+.left_content p
+{
+	font-size:13px;
+	color:#CCC;
+	text-align:justify;
+}
+.left_content h3
+{
+	font-size:18px;
+	color:#FF0;
+}
+.right_content
+{
+	width:350px;
+	float:right;
+	height:400px;
+	background:url(../images/home_services_bg_marketing.gif) top left no-repeat;
+}
+.right_content p
+{
+	font-size:13px;
+	color:#CCC;
+	text-align:justify;
+}
+.right_content h3
+{
+	font-size:18px;
+	color:#FF0;
+}
+

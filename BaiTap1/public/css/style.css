@@ -1,0 +1,110 @@
+/* CSS Document */
+body
+{
+	font-family:Geogria, 'Times New Roman', Times, serif;
+}
+.container
+{
+	margin:auto;
+	width:530px;
+	border:#CCC 1px double;
+	padding:5px;
+}
+.title_profile
+{
+	font-size:25px;
+	background-image:url(../images/title_background.gif);
+}
+p , h3{
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: #0d22ff;
+}
+.infomation
+{
+	height:100px;
+	float:left;
+}
+.avatar
+{
+	width:100px;
+	float:left;
+}
+.avatar img
+{
+	width:100px;
+	height:90px;
+}
+.detail_infomation
+{
+	width:400px;
+	float:right;
+	font-size:17px;
+	line-height:18px;
+	overflow:scroll;
+    height: 100%;
+}
+.title_facts
+{
+	font-size:25px;
+}
+facst
+{
+	width:500px;
+	height:auto;
+}
+.facst ol
+{
+	list-style:none;
+}
+.comment_wrap
+{
+	width:500px;
+}
+.wap
+{
+	width:500px;
+}
+.comment
+{
+	width:100%;
+	background-color:#ededed;
+	padding:5px;
+}
+.posts
+{
+}
+.posts img
+{
+	margin-left:20px;
+	float:left;
+}
+.posts p
+{
+	float:left;
+	margin-left:20px;
+}
+.clear
+{
+	height:10px;
+	clear:both;
+}
+.title_comment
+{
+	margin-top:40px;
+	text-align:center;
+}
+.your_comment
+{
+	width:500px;
+}
+.your_comment table
+{
+	width:500px;
+}
+.your_comment textarea
+{
+	width:100%;
+}
