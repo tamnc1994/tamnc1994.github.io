@@ -2,6 +2,7 @@ body
 {
   font-family:Geogria, 'Times New Roman', Times, serif;
 }
+
 .container
 {
   margin:auto;
@@ -67,11 +68,9 @@ body
 {
   border-top:1px #d8dde3 double;
 }
-.footer p
+#img-footer
 {
-  text-align:center;
-  color:#CCC;
-  height:20px;
+ width:1000px !important;
 }
 .content
 {
@@ -118,5 +117,16 @@ body
 .clear
 {
   clear:both;
+}
+.footer p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	background-color:#24262a;
+	text-align:center;
+	color:#fff;
+	font-size:13px;
 }
 
