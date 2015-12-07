@@ -1,72 +1,81 @@
 body
 {
-  font-family:Geogria, 'Times New Roman', Times, serif;
+    font-family:Geogria, 'Times New Roman', Times, serif;
+    background-color:#222222;
 }
-
+h2 {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+	font-size:18px;
+}
 .container
 {
-  margin:auto;
-  width:1000px;
-  background-color:#2d2f35;
+    margin:auto;
+    width:1000px;
+    background-color:#24262a
 }
 .header
 {
-  background-color:#2d2f35;
+    background-color:#2d2f35;
 }
 .our_product
 {
-  height:300px;
-  width:auto;
-  background-image:url(../images/bg_home_intro.gif);
-  padding-right:50px;
-  border-top:1px #CCC double;
-  border-bottom:1px #f0f0f0 double ;
+    height:300px;
+    width:auto;
+    background-image:url(../images/bg_home_intro.gif);
+    padding-right:50px;
+    border-top:1px solid #474a51;
+    border-bottom:1px solid #474a51;
 }
 .our_product_left
 {
-  float:left;
-  width:300px;
-  padding-left:100px;
+    float:left;
+    width:300px;
+    padding-left:100px;
 }
 .our_product_left h2
 {
-  color:#FF0;
+    color:#FF0;
 }
 .our_product_left p
 {
-  color:#f0f0f0;
-  font-size:11px;
-  line-height:14px;
+    color:#f0f0f0;
+    font-size:11px;
+    line-height:14px;
 }
 .our_product_right
 {
-  float:right;
+    float:right;
 }
 .images
 {
-  width:100%;
-  margin:auto;
-  height:100px;
-  padding-top:5px;
+    width:100%;
+    margin:auto;
+    height:100px;
+    padding-top:5px;
 }
 .list_image
 {
-  widht:100%;
-  border-bottom:1px #d8dde3 double;
+    widht:100%;
+    border-bottom:1px solid #474a51;
 }
 .images img
 {
-  width:185px;
-  float:right;
-  padding:5px;
+    width:185px;
+    float:right;
+    padding:5px;
 }
 .active
 {
-  margin-right:100px;
+    margin-right:100px;
 }
 .footer
 {
-  border-top:1px #d8dde3 double;
+    border-top:1px solid #474a51;
 }
 #img-footer
 {
@@ -74,49 +83,49 @@ body
 }
 .content
 {
-  width:800px;
-  height:400px;
-  margin:auto;
+    width:800px;
+    height:400px;
+    margin:auto;
 }
 .left_content
 {
-  width:350px;
-  float:left;
-  height:400px;
-  background:url(../images/home_services_bg_design.gif) right bottom no-repeat;
+    width:350px;
+    float:left;
+    height:400px;
+    background:url(../images/home_services_bg_design.gif) right bottom no-repeat;
 }
 .left_content p
 {
-  font-size:13px;
-  color:#CCC;
-  text-align:justify;
+    font-size:13px;
+    color:#CCC;
+    text-align:justify;
 }
 .left_content h3
 {
-  font-size:18px;
-  color:#FF0;
+    font-size:18px;
+    color:#FF0;
 }
 .right_content
 {
-  width:350px;
-  float:right;
-  height:400px;
-  background:url(../images/home_services_bg_marketing.gif) top left no-repeat;
+    width:350px;
+    float:right;
+    height:400px;
+    background:url(../images/home_services_bg_marketing.gif) top left no-repeat;
 }
 .right_content p
 {
-  font-size:13px;
-  color:#CCC;
-  text-align:justify;
+    font-size:13px;
+    color:#CCC;
+    text-align:justify;
 }
 .right_content h3
 {
-  font-size:18px;
-  color:#FF0;
+    font-size:18px;
+    color:#FF0;
 }
 .clear
 {
-  clear:both;
+    clear:both;
 }
 .footer p {
     display: block;
