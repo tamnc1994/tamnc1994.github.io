@@ -1,0 +1,227 @@
+body
+{
+  font-family:Arial, Helvetica,sans-serif;
+  font-size:11px;
+}
+.container
+{
+  margin:auto;
+  width: 420px;
+  border:#CCC 1px double;
+  background-color:#e6f3fb;
+  padding:10px;
+}
+#title
+{
+  color:#000000;
+  font-size:20px;
+  font-weight: bold;
+}
+.Blogroll
+{
+  border-top:4px solid #ffa500;
+}
+p {
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.Blogroll_top
+{
+    width: 420px;
+    height:130px;
+    background-color:#fff;
+    float:left;
+    font-size:15px;
+}
+.Blogroll_list
+{
+    width: 420px;
+    height: 110px;
+    float:left;
+}
+.Blogroll_top_left
+{
+    width: 240px;
+    float:left;
+}
+#Blogroll_img
+{
+    width:230px;
+    padding: 3px;
+}
+.title
+{
+    font-size: 21px;
+    font-weight: bold;
+    color:back;
+}
+.Blogroll_top_right
+{
+    width:140px;
+    float:left;
+}
+.p
+{
+    widht:100px;
+}
+.Blogroll_list
+{
+    font-size:15px;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    list-style-type: none;
+}
+li
+{
+    padding-top:9px;
+    padding-bottom:9px;
+    background-color:#faf0bf;
+    border-bottom:2px solid #fff;
+    color:#208aac;
+    padding-left:10px;
+}
+span
+{
+    font-size:15px;
+    color:#3fa4a4;
+    font-weight: bold;
+}
+.Horoscopes
+{
+    border-top:4px solid #ffa500;
+}
+
+.Horoscopes_top
+{
+    width: 420px;
+    height: 180px;
+    background-color:#fff;
+    float:left;
+    font-size:15px;
+}
+.Horoscopes_list
+{
+    width: 420px;
+    height: 145px;
+    float:left;
+    margin-bottom:20px;
+}
+.Horoscopes_top_left
+{
+    width: 180px;
+    float:left;
+}
+#Horoscopes_img
+{
+    width:160px;
+}
+.read_all
+{
+    width: 420px;
+}
+.read_all_top
+{
+    width: 420px;
+    height: 60px;
+    background-color:#f4f4ec;
+    float:left;
+    font-size:15px;
+}
+.read_all_top_left
+{
+    width: 280px;
+    float:left;
+    padding-left:20px;
+}
+.read_all_top_right
+{
+    width:20px;
+    float:left;
+}
+#read_all_img
+{
+    width: 120px;
+}
+.get_new
+{
+    width: 420px;
+    border-top:4px solid #ffa500;
+}
+.get_new_all_top
+{
+    width: 420px;
+    height: 100px;
+    background-color:#fffff;
+    float:left;
+    font-size:15px;
+}
+.get_new_top_left
+{
+    width: 280px;
+    float:left;
+    padding-left: 20px;
+    background-color: #fff;
+    height: 118px;
+}
+.get_new_top_right
+{
+    width: 20px;
+    float:left;
+}
+.Competition
+{
+    padding-top: 5px;
+    font-size: 15px;
+    color:#208aac;
+}
+.Competition_left
+{
+    background-color: #fff;
+    padding:5px;
+    border: 1px solid #C0C0C0;
+    margin-bottom:15px;
+}
+#title_competition
+{
+    padding-top: 5px;
+    font-size:20px;
+}
+.title_p
+{
+    color: #48a19a;
+    font-weight: bold;
+    font-size: 15px;
+}
+#date
+{
+   font-size:13px;
+   color:#bcbcbc;
+   font-weight: initial;
+}
+a:-webkit-any-link {
+    color: #0a6395;
+    text-decoration: none;
+    cursor: auto;
+}
+#title_get_new
+{
+    padding-top: 255px;
+    font-size:20px;
+}
+.hr {
+    border: 1px solid #C0C0C0;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+    clear:both;
+    margin-top: 130px;
+}
