@@ -49,7 +49,7 @@ h2 {
 }
 .our_product_right
 {
-    float:right;
+    /* float:right; */
 }
 #images
 {
@@ -84,7 +84,7 @@ h2 {
 .content
 {
     width:800px;
-    height: 510px;
+    height: 530px;
     margin:auto;
 }
 .left_content
