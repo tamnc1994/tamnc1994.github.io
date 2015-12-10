@@ -65,12 +65,12 @@ h2 {
 }
 .img_list
 {
-    width:180px;
+    width: 163px;
     padding:2px;
 }
 .active
 {
-   width:180px;
+   width: 163px;
    margin-left: 140px;
 }
 .footer
@@ -141,7 +141,7 @@ h2 {
 .imgLogo {
     position: relative;
     left: -40px;
-    top: -55px;
+    top: -44px;
     margin-right: -27px;
     width:26px;
 }
