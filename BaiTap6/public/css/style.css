@@ -341,6 +341,7 @@ select {
 .show
 {
     border-top:1px dotted #cfcfcf;
+    padding-bottom: 8px;
 }
 .img5
 {
