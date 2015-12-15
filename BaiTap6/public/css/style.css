@@ -191,7 +191,7 @@ h2 {
     margin-top: 0px;
     margin-left: 0px;
     font-size: 12px;
-    border-top:1px double #cfcfcf;
+    border-top: 1px dotted #808080;
 }
 .img-click {
     float: right;
@@ -207,7 +207,7 @@ h2 {
 }
 .movie_content_about{
     width: 170px;
-    float:right;
+    float: left;
     margin-top: -19px;
 }
 .link {
@@ -288,6 +288,7 @@ select {
 }
 .img6{
     padding-left:15px;
+    padding-top: 5px;
 }
 .img7{
     padding-left:1px;
@@ -336,10 +337,12 @@ select {
     text-decoration: none;
     font-size: 10px;
 }
-a:-webkit-any-link {
+a {
     color: -webkit-link;
     text-decoration: none;
     cursor: auto;
+    font-weight: bold;
+    margin-top: 6px;
 }
 .nav_footer{
     border-top:1px dotted #fff;
@@ -374,4 +377,25 @@ a {
 }
 .img_top{
     margin-left:10px;
+}
+.img7{
+    height: 69px;
+    float: left;
+}
+.link_right {
+    font-size: 13px;
+    margin-bottom: 10px;
+    float: left;
+    padding-right: 85px;
+}
+.link2 {
+    font-size: 13px;
+    margin-bottom: 10px;
+    float:left;
+}
+.link2::before {
+    content: url('../images/icons.gif');
+}
+#movie_left{
+    border-top:1px dotted #808080;
 }
