@@ -6,6 +6,7 @@ body{
 .container{
     width: 1000px;
     float:left;
+    margin-top: 10px;
 }
 .left_mid{
     background-color:#fff;
@@ -19,11 +20,10 @@ body{
     width: 670px;
 }
 #left{
-     width: 320px;
-     float: left;
-     background-color:#fff;
-     min-height: 274px;
-
+    width: 320px;
+    float: left;
+    background-color:#fff;
+    min-height: 274px;
 }
 #mid{
      width: 320px;
@@ -41,6 +41,7 @@ body{
     background: url(../images/a.gif) repeat-x;
     height: 26px;
     width: 320px;
+	margin-top: -12px;
 }
 .title_left_mid{
     background: url(../images/a.gif) repeat-x;
@@ -50,23 +51,17 @@ body{
 }
 p {
     display: block;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-	padding:5px;
-	font-size:14px;
-	color:#000;
+    padding:5px;
+    font-size:14px;
+    color:#000;
+    margin-bottom: 0px;
+    margin-left: 5px;
 }
 b{
     font-size:15px;
 }
 h2 {
     display: block;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
 	padding:5px;
 	font-weight:bold;
 	font-size:19px;
@@ -122,16 +117,16 @@ h2 {
     margin-top:30px;
 }
 #left2{
-     width: 310px;
-     float: left;
-     background-color:#fff;
-     min-height: 285px;
+    width: 310px;
+    float: left;
+    background-color:#fff;
+    min-height: 285px;
 }
 #mid2{
-     width: 310px;
-     float: left;
-     background-color:#fff;
-     margin-left: 20px;
+    width: 310px;
+    float: left;
+    background-color:#fff;
+    margin-left: 20px;
 }
 #right2{
      width:320px;
@@ -141,13 +136,10 @@ h2 {
     background: url(../images/b.gif) repeat-x;
     height: 26px;
     width: 310px;
+    margin-top: -14px;
 }
 h2 {
     display: block;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
 	padding:5px;
 	font-weight:bold;
 	font-size:15px;
@@ -209,11 +201,12 @@ h2 {
     float:left;
     padding-left:15px;
     font-size:10px;
-    height: 82px;
+    height: 90px;
 }
 .movie_content_about{
     width: 180px;
     float:right;
+    margin-top: -19px;
 }
 .link {
     font-size: 13px;
@@ -369,7 +362,7 @@ a:-webkit-any-link {
 .content_mid{
     padding-left: 14px;
 }
-a:-webkit-any-link {
+a {
     color: #4d95ae;
     text-decoration: none;
     cursor: auto;
