@@ -21,13 +21,7 @@ body
 {
   border-top:4px solid #ffa500;
 }
-p {
-    display: block;
-    -webkit-margin-before: 0.5em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
+
 .Blogroll_top
 {
     width: 420px;
@@ -56,12 +50,29 @@ p {
 {
     font-size: 21px;
     font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: -1px;
     color:back;
 }
+.title_top
+{
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: -8px;
+    margin-bottom: -1px;
+    color:back;
+}
+
 .Blogroll_top_right
 {
     width:140px;
     float:left;
+}
+.title2
+{
+    font-size: 21px;
+    font-weight: bold;
+    color:back;
 }
 .p
 {
@@ -72,18 +83,16 @@ p {
     font-size:15px;
 }
 ul, menu, dir {
+    margin-left: -40px;
     display: block;
     list-style-type: disc;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 0px;
     list-style-type: none;
+    margin-top: -1px;
 }
+
 li
 {
-    padding-top:9px;
+    padding-top: 9px;
     padding-bottom:9px;
     background-color:#faf0bf;
     border-bottom:2px solid #fff;
@@ -104,7 +113,7 @@ span
 .Horoscopes_top
 {
     width: 420px;
-    height: 180px;
+    height: 220px;
     background-color:#fff;
     float:left;
     font-size:15px;
@@ -120,6 +129,13 @@ span
 {
     width: 180px;
     float:left;
+    margin-top: 5px;
+}
+.Horoscopes_top_right
+{
+    width: 180px;
+    float:left;
+    margin-top: 15px;
 }
 #Horoscopes_img
 {
@@ -150,7 +166,7 @@ span
 }
 .read_all_img
 {
-    width: 120px;
+    width: 90px;
 }
 .get_new
 {
@@ -172,6 +188,7 @@ span
     padding-left: 20px;
     background-color: #fff;
     height: 118px;
+    padding-top: 20px;
 }
 .get_new_top_right
 {
@@ -193,7 +210,7 @@ span
 }
 #title_competition
 {
-    padding-top: 5px;
+    padding-top: 0px;
     font-size:20px;
 }
 .title_p
@@ -201,6 +218,7 @@ span
     color: #48a19a;
     font-weight: bold;
     font-size: 15px;
+	text-decoration:none;
 }
 #date
 {
@@ -209,9 +227,10 @@ span
    font-weight: initial;
 }
 a:-webkit-any-link {
-    color: #0a6395;
+    color: #4e9fa3;
     text-decoration: none;
     cursor: auto;
+    margin-top: -10px;
 }
 #title_get_new
 {
@@ -223,5 +242,16 @@ a:-webkit-any-link {
     opacity: 0.2;
     filter: alpha(opacity=20);
     clear:both;
-    margin-top: 130px;
+    margin-top: 150px;
+	clear:both;
+}
+.read_all_img2 {
+    width: 120px;
+    height: 140px;
+    padding-right: 10px;
+}
+p {
+    display: block;
+    margin-bottom:0px;
+	margin-top:0px;
 }
