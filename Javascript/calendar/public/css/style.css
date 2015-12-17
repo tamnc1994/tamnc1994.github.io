@@ -1,0 +1,16 @@
+.calendar{
+	display: block;
+}
+.calendar input{
+	height: 25px;
+}
+.calendar img{
+	position: absolute;
+	height: 31px;
+}
+table{
+	width: 350px;
+}
+button{
+	width: 40px;
+}
