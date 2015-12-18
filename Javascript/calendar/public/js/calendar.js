@@ -121,9 +121,13 @@ function drawCal(firstDay, lastDate, date, monthName, year,days){
                     curCell++;
                 } 
                 else
-                {    
-                    if (digit == date) 
+                {   
+                    var datenow = new Date(); 
+                    var year_check=parseInt(document.getElementById("year").value);
+                    var month_check=parseInt(document.getElementById("month").value);
+                    if (digit == datenow.getDate() && checkDarCur(month_check,year_check)==true) 
                     { 
+                  
                         text += '<TD onclick="setDay('+digit+');" class="active" >';
                         text += digit;
                         text += '</TD>';
@@ -313,4 +317,16 @@ function setDay(day_value){
     document.getElementById("value_calendar").value= day_value+'/'+month+'/'+year;
     document.getElementById("display_header_calendar").style.display= "none";
     document.getElementById("display_calendar").style.display= "none";
+}
+
+//function check day curent
+function checkDarCur(month,year){
+    var dateCur = new Date();
+	var monthDateCur = dateCur.getMonth();
+	var yearDateCur = dateCur.getFullYear();
+	var check = false;
+	if ((monthDateCur == month) && (yearDateCur == year)) {
+		 check = true;
+	}
+	return check;
 }
