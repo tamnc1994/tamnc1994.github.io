@@ -309,7 +309,7 @@ function prevYear(){
 //function set day
 function setDay(day_value){
     var year=parseInt(document.getElementById("year").value);
-    var month=parseInt(document.getElementById("month").value);
+    var month=parseInt(document.getElementById("month").value)+1;
     document.getElementById("value_calendar").value= day_value+'/'+month+'/'+year;
     document.getElementById("display_header_calendar").style.display= "none";
     document.getElementById("display_calendar").style.display= "none";
