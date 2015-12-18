@@ -24,8 +24,7 @@ function getDays(month, year){
 }
 
 function leapYear(year){
-    if (year % 4 == 0) 
-    {
+    if (year % 4 == 0) {
         return true ;
     }
     return false;
@@ -100,48 +99,40 @@ function drawCal(firstDay, lastDate, date, monthName, year,days){
     weekDay[5] = "Fri";
     weekDay[6] = "Sat";
     text += '<TR>';
-    for (var dayNum = 0; dayNum < 7; dayNum++)
-    {
+    for (var dayNum = 0; dayNum < 7; dayNum++) {
         text += openCol + weekDay[dayNum] + closeCol ;
     }
     text += '</TR>';
     //draw calendar
     var digit = 1;
     var curCell = 0;
-    for (var row = 0; row < Math.ceil((lastDate + firstDay - 1) / 7); row++)
-    {
+    for (var row = 0; row < Math.ceil((lastDate + firstDay - 1) / 7); row++) {
         text += '<TR ALIGN="right" VALIGN="top">'
-        for (var col = 0; col < 7; col++) 
-        {
+        for (var col = 0; col < 7; col++) {
             if (digit <=days && digit>0) 
             { 
-                if (curCell < firstDay) 
-                {
+                if (curCell < firstDay) {
                     text += '<TD ></TD>';
                     curCell++;
                 } 
-                else
-                {   
+                else {   
                     var datenow = new Date(); 
                     var year_check=parseInt(document.getElementById("year").value);
                     var month_check=parseInt(document.getElementById("month").value);
-                    if (digit == datenow.getDate() && checkDarCur(month_check,year_check)==true) 
-                    { 
+                    if (digit == datenow.getDate() && checkDarCur(month_check,year_check)==true) { 
                   
                         text += '<TD onclick="setDay('+digit+');" class="active" >';
                         text += digit;
                         text += '</TD>';
                         digit++;
                     } 
-                    else
-                    {
+                    else {
                         text += '<TD onclick="setDay('+digit+');" >' + digit + '</TD>';
                         digit++;
                     }
                 }
             }
-            else
-            {
+            else {
                 digit=0;
             }
         }
@@ -176,31 +167,25 @@ function display_header_calendar(mont_selected, year_selected){
     var month_now=now.getMonth();
     text+='<td colspan="2">';
     text+='<select id="month" onchange="setCalOnchange();" >';
-    for(var month=0;month<12;month++)
-    {
-        if(mont_selected<0)
-        {
+    for(var month=0;month<12;month++) {
+        if(mont_selected<0) {
             
-            if(month==month_now)
-            {
+            if(month==month_now) {
                 text+='<option selected="selected" value="'+month+'">'+getMonthName(month)+'</option>';
                 mont_select_now=month;
             }
-            else
-            {
+            else {
                 text+='<option  value="'+month+'">'+getMonthName(month)+'</option>';
             }
             //mont_select_now=month;
         }
-        else{
+        else {
 
-            if(month==mont_select_now)
-            {
+            if(month==mont_select_now) {
                 text+='<option selected="selected" value="'+month+'">'+getMonthName(month)+'</option>';
                 mont_select_now=month;
             }
-            else
-            {
+            else {
                 text+='<option  value="'+month+'">'+getMonthName(month)+'</option>';
             }
         }
@@ -212,29 +197,23 @@ function display_header_calendar(mont_selected, year_selected){
     var year_now = now.getFullYear();
     text+='<td>';
     text+='<select id="year" onchange="setCalOnchange();">';
-    for(var i=1990;i<=year_now+20;i++)
-    {
-        if(year_selected<0)
-        {
-            if(i==year_now)
-            {
+    for(var i=1990;i<=year_now+20;i++) {
+        if(year_selected<0) {
+            if(i==year_now) {
                 text+='<option selected="selected" value="'+i+'">'+i+'</option>';
                 year_select_now=i;
             }
-            else
-            {
+            else {
                 text+='<option value="'+i+'">'+i+'</option>';
             }
            }
-           else{
+           else {
 
-            if(i==year_select_now)
-            {
+            if(i==year_select_now) {
                 text+='<option selected="selected" value="'+i+'">'+i+'</option>';
                 year_select_now=i;
             }
-            else
-            {
+            else {
                 text+='<option value="'+i+'">'+i+'</option>';
             }
            } 
@@ -255,8 +234,7 @@ function display_header_calendar(mont_selected, year_selected){
 //function next mont
 function nextMonth(){
     mont_select_now++;
-    if(mont_select_now>=12)
-    {
+    if(mont_select_now>=12) {
         mont_select_now=0;
         year_select_now++;
     }
@@ -268,8 +246,7 @@ function nextMonth(){
 //function prev mont
 function prevMonth(){
     mont_select_now--;
-    if(mont_select_now<0)
-    {
+    if(mont_select_now<0) {
         mont_select_now=11;
         year_select_now--;
     }
@@ -285,8 +262,7 @@ function nextYear(){
     //year now
     var year_now = now.getFullYear();
     year_select_now++;
-    if(year_select_now>year_now+20)
-    {
+    if(year_select_now>year_now+20) {
         year_select_now=1990;
     }
     display_header_calendar(1,1);
@@ -301,8 +277,7 @@ function prevYear(){
     //year now
     var year_now = now.getFullYear();
     year_select_now--;
-    if(year_select_now<1990)
-    {
+    if(year_select_now<1990) {
         year_select_now=year_now+20;
     }
     display_header_calendar(1,1);
