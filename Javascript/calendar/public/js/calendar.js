@@ -109,8 +109,7 @@ function drawCal(firstDay, lastDate, date, monthName, year,days){
     for (var row = 0; row < Math.ceil((lastDate + firstDay - 1) / 7); row++) {
         text += '<TR ALIGN="right" VALIGN="top">'
         for (var col = 0; col < 7; col++) {
-            if (digit <=days && digit>0) 
-            { 
+            if (digit <=days && digit>0) { 
                 if (curCell < firstDay) {
                     text += '<TD ></TD>';
                     curCell++;
