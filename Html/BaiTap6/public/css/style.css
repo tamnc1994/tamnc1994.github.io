@@ -42,8 +42,8 @@ body{
     background: url(../images/a.gif) repeat-x;
     height: 26px;
     width: 327px;
-	margin-top: -12px;
-	margin-bottom: 10px;
+    margin-top: -12px;
+    margin-bottom: 10px;
 }
 .title_left_mid{
     background: url(../images/a.gif) repeat-x;
@@ -64,10 +64,10 @@ b{
 }
 h2 {
     display: block;
-	padding:5px;
-	font-weight:bold;
-	font-size:19px;
-	color:#fff;
+    padding:5px;
+    font-weight:bold;
+    font-size:19px;
+    color:#fff;
 }
 .img_more
 {
@@ -79,13 +79,13 @@ h2 {
 }
 .more
 {
-	margin-left: 240px;
-	text-decoration:none;
-	font-size: 14px;
-	color:back;
-	font-weight:bold;
-	color: black;
-	margin-bottom: 20px;
+    margin-left: 240px;
+    text-decoration:none;
+    font-size: 14px;
+    color:back;
+    font-weight:bold;
+    color: black;
+    margin-bottom: 20px;
 }
 .about_left
 {
@@ -145,11 +145,11 @@ h2 {
 }
 h2 {
     display: block;
-	padding:5px;
-	font-weight:bold;
-	font-size:15px;
-	color:#fff;
-	padding-left:15px;
+    padding:5px;
+    font-weight:bold;
+    font-size:15px;
+    color:#fff;
+    padding-left:15px;
 }
 .img_more2{
     background: url(../images/showbuzz.gif) no-repeat;
@@ -157,12 +157,12 @@ h2 {
     width: 350px;
 }
 .more2{
-	text-decoration:none;
-	font-size:12px;
-	color:back;
-	font-weight:bold;
-	float: right;
-	margin-bottom: 10px;
+    text-decoration:none;
+    font-size:12px;
+    color:back;
+    font-weight:bold;
+    float: right;
+    margin-bottom: 10px;
 }
 .about_left2{
     color:#000;
@@ -317,7 +317,7 @@ select {
 }
 .img5{
     height:92px;
-	float: left;
+    float: left;
 }
 .movie-content_right{
     float: left;
@@ -333,7 +333,7 @@ select {
 }
 .nav_footer{
     width:1000px;
-	float:left;
+    float:left;
 }
 .item {
     margin-left: 39px;
@@ -357,12 +357,12 @@ a {
 }
 .nav_footer{
     border-top:1px dotted #fff;
-	margin-top:100px;
+    margin-top:100px;
 }
 .footer{
     width:1000px;
-	float:left;
-	background-color:#fff;
+    float:left;
+    background-color:#fff;
 }
 .back_to_top{
     float:right;
@@ -372,8 +372,8 @@ a {
 }
 #copy{
     padding-left:320px;
-	font-size:12px;
-	color:#4d95ae;
+    font-size:12px;
+    color:#4d95ae;
 }
 
 a {
