@@ -1,0 +1,67 @@
+.calendar{
+    display: block;
+    width: 343px;
+}
+input{
+    width: 334px;
+    border-radius: 5px;
+}
+.calendar input{
+    height: 22px;
+    border-radius: 7px;
+    margin-top: 3px;
+    text-align: left;
+}
+.calendar img{
+    position: absolute;
+    height: 28px;
+    margin-left: -29px;
+    margin-top: 2px;
+}
+table{
+    width: 690px;
+    border: 1px;
+}
+button{
+    width: 40px;
+    background-color:#03a9f4;
+}
+.header_cal{
+    background-color: #03a9f4;
+}
+td{
+    text-align: left;
+    height: 35px;
+    width: 200px;
+}
+.active{
+    background-color: #03a9f4;
+}
+.info{
+    width: 130px;
+    text-align: right;
+}
+.button{
+    width: 60px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+.bottom{
+    float: left;
+    width: 235px;
+    text-align: left;
+    /* margin-left: 2px; */
+    /* margin-top: 5px; */
+}
+.calendar_birthday {
+    height: auto;
+    margin-left: 123px;
+}
+.calendar_table{
+    width: 344px;
+}
+.error{
+    color: red;
+    font-size: 13px;
+}
