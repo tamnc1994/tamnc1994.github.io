@@ -95,7 +95,7 @@ function submitClick(){
 	check=validateEmail();
 	check=checkDate();
 	if(check==true){
-		var url="http://192.168.1.69:100/GMO/tamnc1994.github.io/Javascript/formAjax/function_php.php";
+		var url="http://tamnc1994.github.io/tamnc1994.github.io/Javascript/formAjax/function_php.php";
 		var username=document.getElementById("username").value;
         var xmlhttp;
 		xmlhttp = new XMLHttpRequest();
