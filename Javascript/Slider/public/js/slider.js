@@ -38,6 +38,9 @@ function next(){
     }
     document.getElementById("img").src = 'public/images/'+list_img[index];
     document.getElementById("index_"+index).src = 'public/images/index_active.png';
+    clearInterval(interval_obj);
+    interval_obj =setInterval(random, 3000);
+
 }
 
 //function prev slider
@@ -51,6 +54,8 @@ function prev(){
      }
      document.getElementById("img").src = 'public/images/'+list_img[index];
      document.getElementById("index_"+index).src = 'public/images/index_active.png';
+     clearInterval(interval_obj);
+     interval_obj =setInterval(random, 3000);
 }
 
 //function  slider random
@@ -77,4 +82,4 @@ function selectImg(position){
 }
 
 //timer 
-setInterval(random, 5000);
+var interval_obj =setInterval(random, 3000);
