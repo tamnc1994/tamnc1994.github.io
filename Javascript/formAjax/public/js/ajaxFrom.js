@@ -44,12 +44,12 @@ function validateEmail()
 function checkUsername(){
 	var username=document.getElementById("username").value;
 	if (username!=""){
-		if(username.length>=10){
+		if(username.length>=5){
             document.getElementById("error_user").innerHTML = "";
             return true;
 		}
 		else{
-			document.getElementById("error_user").innerHTML = "username length min 10 letter";
+			document.getElementById("error_user").innerHTML = "username length min 5 letter";
 	        return false;
 		}
 	   
@@ -60,10 +60,17 @@ function checkUsername(){
 
 //function check Pass
 function checkPass(){
-	var username=document.getElementById("password").value;
-	if (username!=""){
-	   document.getElementById("error_pass").innerHTML = "";
-       return true;
+	var pass=document.getElementById("password").value;
+	if (pass!=""){
+		if(pass.length>=10){
+            document.getElementById("error_pass").innerHTML = "";
+            return true;
+		}
+		else{
+			document.getElementById("error_pass").innerHTML = "password length min 10 letter";
+	        return false;
+		}
+	   
 	}
 	document.getElementById("error_pass").innerHTML = "password isn't null";
 	return false;

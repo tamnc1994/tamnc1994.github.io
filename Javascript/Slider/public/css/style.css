@@ -16,7 +16,8 @@
 	margin-left: 50%;
 }
 .index_slider{
-	margin-top: 0px;
+	margin-top: 1px;
 	float: left;
 	width: 10px;
+	margin-left: -26px;
 }
