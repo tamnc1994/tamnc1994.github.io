@@ -119,7 +119,6 @@ function drawCal(firstDay, lastDate, date, monthName, year,days){
                     var year_check=parseInt(document.getElementById("year").value);
                     var month_check=parseInt(document.getElementById("month").value);
                     if (digit == datenow.getDate() && checkDarCur(month_check,year_check)==true) { 
-                  
                         text += '<TD onclick="setDay('+digit+');" class="active" >';
                         text += digit;
                         text += '</TD>';

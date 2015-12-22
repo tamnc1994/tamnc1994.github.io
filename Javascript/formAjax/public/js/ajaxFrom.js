@@ -45,12 +45,19 @@ function checkUsername(){
 	var username=document.getElementById("username").value;
 	if (username!=""){
 		if(username.length>=5){
-            document.getElementById("error_user").innerHTML = "";
-            return true;
+			var reg = /^[a-zA-Z0-9À-ý]+$/;
+	    		if (reg.test(username)==true){
+	    		    document.getElementById("error_user").innerHTML = "";
+            		    return true;
+	    		}
+			else{
+                             document.getElementById("error_user").innerHTML = "username isn't valid ";
+	                     return false;
+			}	
 		}
 		else{
 			document.getElementById("error_user").innerHTML = "username length min 5 letter";
-	        return false;
+	                return false;
 		}
 	   
 	}
