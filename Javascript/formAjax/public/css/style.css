@@ -64,4 +64,5 @@ td{
 .error{
     color: red;
     font-size: 13px;
+    text-align: left;
 }
